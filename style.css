@@ -143,9 +143,8 @@ header {
 section.parallax {
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    height: 110vh;
     background-image: url('./assets/imgs/mainBg.avif');
-    background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
@@ -189,4 +188,89 @@ section.parallax {
     height: 540px;
     background-image: url('./assets/imgs/newFirstFold.avif');
     transform: rotate(-10deg);
+}
+
+/* Seção Controle de Atividades */
+.exercise-tracking-section {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    column-gap: 40px;
+    height: 100vh;
+    padding-top: 25px;
+    background-color: var(--bg-color-1);
+}
+
+/* Primeira Coluno do Grid */
+.exercise-tracking-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background: 
+        linear-gradient(to bottom, rgba(34, 35, 35, .5)),
+        url('./assets/imgs/female-athlete-before-run.avif');
+    background-size: cover;
+    background-position: 50%;
+    margin-left: 260px;
+}
+
+/* Título do Conteúdo */
+.exercise-tracking-content h2 {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+/* Icone do Título*/
+.exercise-tracking-content h2 i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    background-color: var(--bg-color-1);
+    color: var(--color-3);
+    border-radius: 100%;
+    margin-right: 25px;
+    transform: rotate(-45deg);
+    filter: drop-shadow(1px 1px 5px var(--bg-color-3));
+}
+
+/* Subtítulo */
+.exercise-tracking-content h3 {
+    font-size: 48px;
+    font-weight: 400;
+    width: 500px;
+    line-height: 1.3;
+    margin: 35px 0;
+}
+
+/* Parágrafo */
+.exercise-tracking-content p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 500px;
+    line-height: 1.3;
+}
+
+/* Imagem de Fundo da Segunda Coluna do Grid*/
+.gradient-background-product {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/imgs/mainBg.avif');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.gradient-background-product img {
+    width: 350px;
+    height: 479px;
+    position: absolute;
+    right: 15%;
 }
