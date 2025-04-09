@@ -185,5 +185,8 @@ section.parallax {
 
 /* Imagem do Produto */
 .product-image {
+    width: 548px;
+    height: 540px;
+    background-image: url('./assets/imgs/newFirstFold.avif');
     transform: rotate(-10deg);
 }
