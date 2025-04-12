@@ -447,7 +447,7 @@ header {
     justify-content: start;
     align-items: start;
     width: 100%;
-    height: 90vh;
+    height: 80vh;
     background:    
         linear-gradient(to bottom, var(--linear-gradient-1)),
         url('./assets/imgs/2.avif');
