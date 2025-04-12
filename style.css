@@ -449,7 +449,7 @@ header {
     align-items: start;
     width: 100%;
     height: 80vh;
-    background:    
+    background:
         linear-gradient(to bottom, var(--linear-gradient-1)),
         url('./assets/imgs/2.avif');
     background-attachment: fixed;
@@ -613,4 +613,77 @@ header {
 .product-specifications .buy-button {
     font-size: 20px;
     margin-bottom: 100px;
+}
+
+
+
+/* Sexta Seção da Página*/
+/* Viva Melhor */
+.live-better-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    background-color: var(--bg-color-1);
+}
+
+/* Grade de Conteúdo */
+.live-better-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    width: 75%;
+    height: 100%;
+}
+
+/* Cards */
+.live-better-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+/* Ícone dos Cards */
+.live-better-card  i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    background-color: var(--bg-color-1);
+    background: var(--linear-gradient-2);
+    border-radius: 100%;
+    margin: 50px 0 15px 0;
+}
+
+/* Título dos Cards */
+.live-better-card h2 {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+/* Subtítulo dos Cards */
+.live-better-card h3 {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    width: 275px;
+    margin: 15px 0;
+}
+
+/* Backgrounds dos Cards */
+.live-better-content .sleep {
+    background-image: url('./assets/imgs/1.avif');
+    background-size: cover;
+}
+
+.live-better-content .meditation {
+    background-image: url('./assets/imgs/3.avif');
+    background-size: cover;
 }
