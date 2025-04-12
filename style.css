@@ -12,6 +12,7 @@
     --color-3: #a238ff;
 
     --linear-gradient-1: rgba(34, 35, 35, .5);
+    --linear-gradient-2: linear-gradient(to right, #1414df, #a238ff);
 }
 
 /* CSS Resete */
@@ -209,7 +210,7 @@ header {
     grid-template-columns: 2.5fr 1fr;
     column-gap: 40px;
     height: 100vh;
-    padding-top: 25px;
+    padding: 25px 0;
     background-color: var(--bg-color-1);
 }
 
@@ -245,11 +246,10 @@ header {
     height: 60px;
     font-size: 28px;
     background-color: var(--bg-color-1);
-    color: var(--color-3);
+    background: var(--linear-gradient-2);
     border-radius: 100%;
     margin-right: 25px;
-    transform: rotate(-45deg);
-    filter: drop-shadow(1px 1px 5px var(--bg-color-3));
+    transform: rotate(-43deg);
 }
 
 /* Subtítulo */
