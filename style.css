@@ -695,7 +695,6 @@ header {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    height: 100vh;
     background-color: var(--bg-color-1);
 }
 
