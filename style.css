@@ -831,3 +831,68 @@ i .outer-circle .inner-circle {
     background-color: var(--bg-color-1);
     transition: 0.5s ease;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./assets/imgs/footer.avif');
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+footer .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 78%;
+}
+
+.social-media .list-media, .legal-information .list-legal {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-media li {
+    list-style: none;
+    font-size: 14px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.list-legal li {
+    list-style: none;
+    font-size: 14px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+hr {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid var(--color-2);
+    margin: 50px 0 25px 0;
+}
+
+footer .rights-flags {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 78%;
+}
+
+.rights-flags .rights {
+ font-size: 14px;
+}
+
+.rights-flags .flags img {
+    margin-left: 15px;
+}
+
+.rights a {
+    text-decoration: underline;
+}
