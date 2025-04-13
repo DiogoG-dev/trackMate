@@ -156,7 +156,7 @@ header {
     display: flex;
     flex-direction: row;
     height: 110vh;
-    background-image: url('./assets/imgs/mainBg.avif');
+    background-image: url('../imgs/backgronds/mainBg.avif');
     background-position: center;
     background-size: cover;
 }
@@ -198,7 +198,7 @@ header {
 .product-image {
     width: 548px;
     height: 540px;
-    background-image: url('./assets/imgs/newFirstFold.avif');
+    background-image: url('../imgs/folds/newFirstFold.avif');
     transform: rotate(-10deg);
 }
 
@@ -223,7 +223,7 @@ header {
     justify-content: center;
     background: 
         linear-gradient(to bottom, var(--linear-gradient-1)),
-        url('./assets/imgs/female-athlete-before-run.avif');
+        url('../imgs/backgronds/female-athlete-before-run.avif');
     background-size: cover;
     background-position: 50%;
     margin-left: 260px;
@@ -277,7 +277,7 @@ header {
     align-items: center;
     width: 100%;
     height: 100%;
-    background-image: url('./assets/imgs/mainBg.avif');
+    background-image: url('../imgs/backgronds/mainBg.avif');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -304,7 +304,7 @@ header {
 
 /* Primeira Coluna do Grid */
 .notification-system-section .gradient-background-product {
-    background-image: url('./assets/imgs/mainBgReverse.avif');
+    background-image: url('../imgs/backgronds/mainBgReverse.avif');
 }
 
 .gradient-background-product .foldImage {
@@ -380,7 +380,7 @@ header {
     width: 100%;
     height: 150vh;
     background-color: var(--bg-color-1);
-    background-image: url('./assets/imgs/7.avif');
+    background-image: url('../imgs/backgronds/bgLineGradient.avif');
     background-size: cover;
 }
 
@@ -451,7 +451,7 @@ header {
     height: 80vh;
     background:
         linear-gradient(to bottom, var(--linear-gradient-1)),
-        url('./assets/imgs/2.avif');
+        url('../imgs/backgronds/manWalking.avif');
     background-attachment: fixed;
     background-size: cover;
 }
@@ -517,8 +517,8 @@ header {
     align-items: center;
     height: 175vh;
     background-image: 
-        url('./assets/imgs/blackFold.png'),
-        url('./assets/imgs/bgGradient.avif');
+        url('../imgs/folds/blackFold.png'),
+        url('../imgs/backgronds/bgGradient.avif');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: auto, cover;
@@ -678,12 +678,12 @@ header {
 
 /* Backgrounds dos Cards */
 .live-better-content .sleep {
-    background-image: url('./assets/imgs/1.avif');
+    background-image: url('../imgs/backgronds/womanSleeping.avif');
     background-size: cover;
 }
 
 .live-better-content .meditation {
-    background-image: url('./assets/imgs/3.avif');
+    background-image: url('../imgs/backgronds/womanMeditating.avif');
     background-size: cover;
 }
 
@@ -832,17 +832,22 @@ i .outer-circle .inner-circle {
     transition: 0.5s ease;
 }
 
+
+
+/* Rodapé da Página */
+/* Footer */
 footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('./assets/imgs/footer.avif');
+    background-image: url('../imgs/backgronds/footer.avif');
     background-position: center center;
     background-size: cover;
     padding-bottom: 100px;
 }
 
+/* Links Container */
 footer .links {
     display: flex;
     flex-direction: row;
@@ -851,6 +856,7 @@ footer .links {
     width: 78%;
 }
 
+/* Links de Redes Sociais e Informações Legais */
 .social-media .list-media, .legal-information .list-legal {
     display: flex;
     flex-direction: row;
@@ -863,6 +869,10 @@ footer .links {
     cursor: pointer;
 }
 
+.list-media li a {
+    text-decoration: underline;
+}
+
 .list-legal li {
     list-style: none;
     font-size: 14px;
@@ -870,6 +880,7 @@ footer .links {
     cursor: pointer;
 }
 
+/* Barra Horizontal de Divisão */
 hr {
     width: 80%;
     border: none;
@@ -877,6 +888,7 @@ hr {
     margin: 50px 0 25px 0;
 }
 
+/* Container de Direitos e Bandeiras */
 footer .rights-flags {
     display: flex;
     flex-direction: row;
@@ -885,14 +897,16 @@ footer .rights-flags {
     width: 78%;
 }
 
+/* Direitos */
 .rights-flags .rights {
- font-size: 14px;
-}
-
-.rights-flags .flags img {
-    margin-left: 15px;
+    font-size: 14px;
 }
 
 .rights a {
     text-decoration: underline;
+}
+
+/* Bandeiras */
+.rights-flags .flags img {
+    margin-left: 15px;
 }
